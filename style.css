@@ -1,0 +1,382 @@
+body {
+  background-color: #d2cdcd;
+  font-family: arial;
+}
+
+.admin {
+  color: #FFFFFF;
+  margin-top: 2%;
+  padding-right: 20px;
+  padding-left: 15px;
+  position: relative;
+  text-align: right;
+}
+
+.admin:hover {
+  color: #06ccdd;
+}
+
+.admin-inline {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+nav {
+  background-color: #313030;
+  height: 25%;
+  width: 100%; 
+}
+
+.human {
+  height: 15px;
+  margin-top: .5%;
+  margin-right: -6px;
+  width: 15px;
+  }
+
+.inline-nav {
+  color: #FFFFFF;
+  display: inline-block;
+  margin-top: 7%;
+  padding: 0 15px 2px 5px;
+  text-align: bottom;
+}
+
+.inline-nav:hover {
+  color: #06ccdd;
+}
+
+.logo  {
+  float: right;
+  padding-right: 20px;
+  width: 3.5rem;
+}
+
+.playlist {
+  font-size: 12px;
+  margin-left: 5%;
+}
+
+.nav-inline {
+  display: inline-block;
+  margin-left: 3%;
+}
+
+section {
+  display: grid;
+  grid-row-gap: .5em;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+article {
+  background-color: #FFFFFF;
+  background-repeat: no-repeat;
+  box-shadow: 1px 1px 4px gray;
+  height: 23em;
+  margin-left: 5%;
+  margin-right: 3%;
+  width: 90%;
+}
+
+button {
+  background-color: #dbd5d5;
+  font-size: 14px;
+  height: 40px;
+  margin-left: 8%;
+  margin-right: 10%;
+  text-align: center;
+  width: 80%;
+}
+
+button:hover {
+  background-color: #06ccdd
+}
+
+h1 {
+  margin-left: 1.5%
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: lighter;
+  margin-bottom: -19px;
+  margin-top: 3px;
+  margin-left: 3%;
+}
+
+h4 {
+  color: #837d7d;
+  font-size: 14px;
+  font-weight: lighter;
+  margin-left: 3%;
+}
+
+h5 {
+  color: #4acce7;
+  font-size: 28px;
+  margin-left: 5%;
+  margin-top: -2%;
+}
+
+.charlie { 
+  grid-column: 3 / 4;
+  grid-row: 2;
+}
+
+.dean {
+  grid-column: 4 / 5;
+  grid-row: 1;
+}
+
+.leslie {
+  grid-column: 1 / 2;
+  grid-row: 1;
+  position: relative;
+}
+
+.photo { 
+  width: 100%; 
+  height: auto;
+  }
+
+.roger {
+  grid-column: 1 / 2;
+  grid-row: 2;
+}
+
+.selina { 
+  grid-column: 2 / 3;
+  grid-row: 2;
+}
+
+.show-title {
+  font-size: 14px;
+  margin-bottom: 3%;
+  margin-left: 5%;
+  margin-top: -5%;
+}
+
+.tamra { 
+  grid-column: 4 / 5;
+  grid-row: 2;
+}
+
+.tina {
+  grid-column: 3 / 4;
+  grid-row: 1;
+}
+
+.tracy {
+  grid-column: 2 / 3;
+  grid-row: 1;
+}
+
+@media screen and (max-width: 950px) {
+
+section {
+  display: grid;
+  grid-row-gap: .5em;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.charlie { 
+  grid-column: 1 / 2;
+  grid-row: 3;
+}
+
+.dean {
+  grid-column: 1 / 2;
+  grid-row: 2;
+}
+
+.leslie {
+  grid-column: 1 / 2;
+  grid-row: 1;
+}
+
+.roger {
+  grid-column: 2 / 3;
+  grid-row: 2;
+}
+
+.selina { 
+  grid-column: 3 / 4;
+  grid-row: 2;
+}
+
+.tamra { 
+  grid-column: 3 / 4;
+  grid-row: 3;
+}
+
+.tina {
+  grid-column: 3 / 4;
+  grid-row: 1;
+}
+
+.tracy {
+  grid-column: 2 / 3;
+  grid-row: 1;
+}
+}
+
+@media screen and (max-width: 740px) {
+
+section {
+  display: grid;
+  grid-row-gap: .5em;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.charlie { 
+  grid-column: 1 / 2;
+  grid-row: 4;
+}
+
+.dean {
+  grid-column: 2 / 3;
+  grid-row: 2;
+}
+
+.leslie {
+  grid-column: 1 / 2;
+  grid-row: 1;
+}
+
+.roger {
+  grid-column: 1 / 2;
+  grid-row: 3;
+}
+
+.selina { 
+  grid-column: 2 / 3;
+  grid-row: 3;
+}
+
+.tamra { 
+  grid-column: 2 / 3;
+  grid-row: 4;
+}
+
+.tina {
+  grid-column: 1 / 2;
+  grid-row: 2;
+}
+
+.tracy {
+  grid-column: 2 / 3;
+  grid-row: 1;
+}
+}
+
+@media screen and (max-width: 660px) {
+
+
+.icon {
+  display: none;
+}
+
+.inline-nav {
+  display: block;
+  padding: 0 -10% 0 -10%;
+}
+
+.logo {
+  width: 5rem;
+}
+}
+
+@media screen and (max-width: 515px) {
+  
+button {
+  background-color: #dbd5d5;
+  font-size: 12px;
+  height: 20px;
+  margin: 0 8% -10% 8%;
+  text-align: center;
+  width: 80%;
+}
+
+h3 {
+  font-size: 14px;
+  font-weight: lighter;
+  margin-bottom: -15px;
+  margin-top: 3px;
+  margin-left: 3%;
+}
+
+h4 {
+  font-size: 12px;
+  margin-bottom: 1em;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+  section {
+  display: grid;
+  grid-row-gap: .5em;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+}
+
+.charlie { 
+  grid-column: 1 / 2;
+  grid-row: 7;
+}
+
+.dean {
+  grid-column: 1 / 2;
+  grid-row: 4;
+}
+
+.leslie {
+  grid-column: 1 / 2;
+  grid-row: 1;
+}
+
+.roger {
+  grid-column: 1 / 2;
+  grid-row: 5;
+}
+
+.selina { 
+  grid-column: 1 / 2;
+  grid-row: 6;
+}
+
+.show-title {
+  font-size: 12px;
+  margin-bottom: 3%;
+  margin-left: 5%;
+  margin-top: -3%;
+}
+
+.tamra { 
+  grid-column: 1 / 2;
+  grid-row: 8;
+}
+
+.tina {
+  grid-column: 1 / 2;
+  grid-row: 3;
+}
+
+.tracy {
+  grid-column: 1 / 2;
+  grid-row: 2;
+}
+}
+
+
+
+
+
+
+
